@@ -48,7 +48,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 ###### The complete list of variables of each feature vector is available in 'features.txt'
 
 
-##Data Cleaning
+## Data Cleaning
 
 The R script **"run_analysis.R"** was used to create a more analysis friendly dataset. 
 
