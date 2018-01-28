@@ -56,4 +56,4 @@ AVG_subject = aggregate(MSTR_data_3[,-1:-4],list(subject = MSTR_data_3$subject),
 #Average of all columns(except the categorical variables) by both SUBJECT and ACTIVITY
 AVG_subact = aggregate(MSTR_data_3[,-1:-4],list(subject = MSTR_data_3$subject,activity = MSTR_data_3$activity),mean)
 
-write.table(AVG_subact,file = "C:/Users/Popo/Documents/DP-Projects/Coursera/data cleaning - codes and files/Getting and Cleaning Data - Final Project/Subject_Activity_Summary.txt")
+write.table(AVG_subact,file = "C:/Users/Popo/Documents/DP-Projects/Coursera/data cleaning - codes and files/Getting and Cleaning Data - Final Project/Subject_Activity_Summary.txt",row.names = F)
